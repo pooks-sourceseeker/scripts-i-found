@@ -4604,7 +4604,7 @@ do
 							local color = flags["visuals_clone_chams_color"];
 							local transparency = flags["visuals_clone_chams_transparency"];
 
-							local model = utility.clone_character(player, transparency, color, "ForceField", true<);
+							local model = utility.clone_character(player, transparency, color, "ForceField", true);
 							
 							task.delay(clone_chams_duration, function()
 								model:Destroy();
