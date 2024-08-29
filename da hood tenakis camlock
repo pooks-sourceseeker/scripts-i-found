@@ -11,7 +11,6 @@ getgenv().ThirdPerson = true
 getgenv().TeamCheck = true
 getgenv().Enabled = true
  
- 
--- // hrcsgo lock worse / / -- 
+
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()
