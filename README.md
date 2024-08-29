@@ -1,1 +1,1 @@
-public version of scripts :)
+skidded shit i found on the web (TOTALLY)
