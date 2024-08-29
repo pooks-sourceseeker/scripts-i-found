@@ -2945,12 +2945,13 @@ local game_support = {
     },
  [17344804827] = {
         Number = 19,
-        Name = "Hood Modded",
+        Name = "Yeno hood",
         Remote = "MainEvent",
         Argument = "UpdateMousePos",
         BulletName = "BULLET_RAYS",
         BulletBeamName = "GunBeam",
         BulletPath = workspace:FindFirstChild("Ignored") or nil
+        },
 }; --// Credits to farzad
 
 --// custom game support
