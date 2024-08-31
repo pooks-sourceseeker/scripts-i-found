@@ -5,7 +5,7 @@ local Library = {};
 do
 	Library = {
 		Open = true;
-		Accent = Color3.fromRGB(207, 227, 0);
+		Accent = Color3.fromRGB(255, 78, 196);
 		Pages = {};
 		Sections = {};
 		Flags = {};
@@ -2537,7 +2537,7 @@ do
 		--
 		function Library:Watermark(Properties)
 			local Watermark = {
-				Name = (Properties.Name or Properties.name or "Starhook.club | placeholder");
+				Name = (Properties.Name or Properties.name or "Niggers.chicken | placeholder");
 				AnimateText = nil;
 			}
 			--
@@ -2603,14 +2603,14 @@ do
 
 			task.spawn(function()
 				while task.wait() do
-					for i = 1, #"Starhook.club" do
-						Watermark.AnimateText = string.sub("Starhook.club", 1, i) .. "";
+					for i = 1, #"Niggers.Chicken" do
+						Watermark.AnimateText = string.sub("Niggers.Chicken", 1, i) .. "";
 						Title.Text = Watermark.AnimateText .. " " .. Watermark.Name;
 						task.wait(0.4);
 					end;
 
-					for i = #"Starhook.club" - 1, 1, -1 do
-						Watermark.AnimateText = string.sub("Starhook.club", 1, i) .. "";
+					for i = #"Niggers.Chicken" - 1, 1, -1 do
+						Watermark.AnimateText = string.sub("Niggers.Chicken", 1, i) .. "";
 						Title.Text = Watermark.AnimateText .. " " .. Watermark.Name;
 						task.wait(0.4);
 					end;
@@ -2786,7 +2786,9 @@ local hitsounds = {
     ["Bameware"] = "rbxassetid://6565367558",
     ["Neverlose"] = "rbxassetid://6565370984",
     ["Gamesense"] = "rbxassetid://4817809188",
-    ["Rust"] = "rbxassetid://6565371338"
+    ["Rust"] = "rbxassetid://6565371338",
+    ["Punch"] = "rbxassetid://8595980577",
+    ["Pistol"] = "rbxassetid://4502821590"
 };
 
 if (not (isfolder("starhook"))) then
@@ -2952,7 +2954,16 @@ local game_support = {
         BulletBeamName = "GunBeam",
         BulletPath = workspace:FindFirstChild("Ignored") or nil
         },
-}; --// Credits to farzad
+        [15644861772] = {
+            Number = 20,
+            Name = "Flame Hood",
+            Remote = "UpdateAim",
+            Argument = "UpdateMousePos",
+            BulletName = "BULLET_RAYS",
+            BulletBeamName = "GunBeam",
+            BulletPath = workspace:FindFirstChild("Ignored") or nil
+        },
+    }; 
 
 --// custom game support
 local remote_name = game_support[game.PlaceId] and game_support[game.PlaceId].Remote or nil;
