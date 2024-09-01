@@ -2953,16 +2953,7 @@ local game_support = {
         BulletName = "BULLET_RAYS",
         BulletBeamName = "GunBeam",
         BulletPath = workspace:FindFirstChild("Ignored") or nil
-        },
-        [15644861772] = {
-            Number = 20,
-            Name = "Flame Hood",
-            Remote = "Packages.Knit.Services.ToolService.RE.UpdateAim",
-            Argument = "UpdateMousePos",
-            BulletName = "BULLET_RAYS",
-            BulletBeamName = "GunBeam",
-            BulletPath = workspace:FindFirstChild("Ignored") or nil
-        },
+       },
     }; 
 
 --// custom game support
