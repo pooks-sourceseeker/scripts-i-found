@@ -2788,7 +2788,9 @@ local hitsounds = {
     ["Gamesense"] = "rbxassetid://4817809188",
     ["Rust"] = "rbxassetid://6565371338",
     ["Punch"] = "rbxassetid://8595980577",
-    ["Pistol"] = "rbxassetid://4502821590"
+    ["Pistol"] = "rbxassetid://4502821590",
+    ["8bit"] = "rbxassetid://71940642795478",
+    ["drumhit"] = "rbxassetid://74481054899608"
 };
 
 if (not (isfolder("starhook"))) then
