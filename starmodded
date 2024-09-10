@@ -2967,7 +2967,7 @@ local game_support = {
        },
  [18596575405] = {
         Number = 20,
-        Name = "haze hood",
+        Name = "Haze Hood",
         Remote = "MainEvent",
         Argument = "UpdateMousePos",
         BulletName = "BULLET_RAYS",
