@@ -2799,15 +2799,6 @@ end;
 
 --// game support
 local game_support = {
-    [2788229376] = {
-        Number = 1,
-        Name = "Da Hood",
-        Remote = "MainEvent",
-        Argument = real_dh_arg or UpdateMousePos1",
-        BulletName = "BULLET_RAYS",
-        BulletBeamName = "GunBeam",
-        BulletPath = workspace:FindFirstChild("Ignored") and workspace.Ignored:FindFirstChild("Siren") and workspace.Ignored.Siren:FindFirstChild("Radius") or nil
-    },
     [12238627497] = {
         Number = 2,
         Name = "Locker Hood",
@@ -2968,6 +2959,15 @@ local game_support = {
  [18596575405] = {
         Number = 20,
         Name = "Haze Hood",
+        Remote = "MainEvent",
+        Argument = "UpdateMousePos",
+        BulletName = "BULLET_RAYS",
+        BulletBeamName = "GunBeam",
+        BulletPath = workspace:FindFirstChild("Ignored") or nil
+       },
+ [107695061804464] = {
+        Number = 20,
+        Name = "Da Craft",
         Remote = "MainEvent",
         Argument = "UpdateMousePos",
         BulletName = "BULLET_RAYS",
